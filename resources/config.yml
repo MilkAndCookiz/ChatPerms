@@ -1,0 +1,22 @@
+---
+groups:
+  default:
+    chat_format: '§a[Member] {FACTION}{PLAYER}: {MESSAGE}'
+    nametag_format: §a[Member] {FACTION}{PLAYER} {HEALTH}
+    permissions:
+    - chatperms.basic
+  vip:
+    chat_format: '§6[VIP] {FACTION}{PLAYER}: §f{MESSAGE}'
+    nametag_format: §6[VIP] {FACTION}{PLAYER} {HEALTH}
+    permissions:
+    - chatperms.basic
+    - chatperms.vip
+  admin:
+    chat_format: '§c[Admin] {FACTION} {PLAYER}: §f{MESSAGE}'
+    nametag_format: §c[Admin] {FACTION}{PLAYER} {HEALTH}
+    permissions:
+    - chatperms.basic
+    - chatperms.vip
+    - chatperms.admin
+rename_nametag: true
+...

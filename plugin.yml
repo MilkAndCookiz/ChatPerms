@@ -1,0 +1,33 @@
+name: ChatPerms
+main: ChatPerms\Main
+version: 1.0.0
+api: [5.0.0]
+description: "A plugin for managing player groups, permissions and chat formatting."
+author: MilkAndCookiz
+commands:
+  cp:
+    description: ChatPerms main command
+    aliases: [chatperms]
+    permission: chatperms.command
+permissions:
+  chatperms.command:
+    description: Allows access to the main ChatPerms command
+    default: op
+  chatperms.command.setgroup:
+    description: Allows setting a player's group
+    default: op
+  chatperms.command.creategroup:
+    description: Allows creating a new group
+    default: op
+  chatperms.command.removegroup:
+    description: Allows removing a group
+    default: op
+  chatperms.command.addgroupperm:
+    description: Allows adding a permission to a group
+    default: op
+  chatperms.command.removegroupperm:
+    description: Allows removing a permission from a group
+    default: op
+  chatperms.group.*:
+    description: Wildcard permission for all ChatPerms groups
+    default: false
