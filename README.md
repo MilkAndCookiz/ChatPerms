@@ -1,4 +1,4 @@
-# ChatPerms
+# ChatPerms [![](https://poggit.pmmp.io/shield.state/ChatPerms)](https://poggit.pmmp.io/p/ChatPerms)
 
 A comprehensive chat and permissions management plugin for PocketMine-MP servers, with faction support.
 
